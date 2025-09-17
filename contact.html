@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Skipperz Club Nairobi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <a href="index.html" class="logo">Skipperz Club Nairobi</a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content of the Contact Page -->
+    <main>
+        <!-- Intro Section -->
+        <section class="contact-intro">
+            <div class="container">
+                <h1>Get in Touch!</h1>
+                <p>Have a question about our sessions? Want to join? Send us a message using the form below or come find us during our training times. We'd love to hear from you!</p>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="contact-content">
+            <div class="container">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name *</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Your Email *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2>Other Ways to Reach Us</h2>
+                    
+                    <div class="info-item">
+                        <h3>Where to Find Us</h3>
+                        <p>Join us at our regular sessions at Jaffery's Sports CLub in Lavington, Nairobi. Check the <a href="join.html">schedule</a> for details.</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>Email</h3>
+                        <p>info@skipperznbi.com</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>Phone</h3>
+                        <p>+254 700 123 456</p>
+                    </div>
+                    
+                    <div class="info-item">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/skipperznbi/" target="_blank">Instagram</a> 
+                            <a href="https://www.facebook.com/skipperznbi/" target="_blank">Facebook</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+                <!-- Map Section -->
+        <section class="map-section">
+            <div class="container">
+                <h2>Find Us at Jaffery Sports Club</h2>
+                <div class="map-container">
+                    <!-- Embedded Google Map for Jaffery Sports Club -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.818015821999!2d36.775661!3d-1.279111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a6d2e0aa225%3A0x9eef068c5f2c8c0!2sJaffery%20Sports%20Club!5e0!3m2!1sen!2ske!4v1726528351748!5m2!1sen!2ske" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Skipperz Club Nairobi. All rights reserved.</p>
+            <p>Fitness, Fun, and Community - for free.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/skipperznbi/" target="_blank">@skipperznbi</a> 
+                <a href="https://www.facebook.com/skipperznbi/" target="_blank">@skipperznbi</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to our JavaScript file -->
+    <script src="js/script.js"></script>
+</body>
+</html>

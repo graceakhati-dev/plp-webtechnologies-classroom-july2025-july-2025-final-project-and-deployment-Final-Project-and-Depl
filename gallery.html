@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Skipperz Club Nairobi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <a href="index.html" class="logo">Skipperz Club Nairobi</a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="join.html">Join Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content of the Gallery Page -->
+    <main>
+        <section class="gallery-intro">
+            <div class="container">
+                <h1>See the Skipperz in Action</h1>
+                <p>Check out photos from our sessions, events, and the amazing community that makes it all fun.</p>
+            </div>
+        </section>
+
+        <!-- The Image Grid -->
+        <section class="image-gallery">
+            <div class="container">
+                <div class="gallery-grid">
+                    <!-- Gallery Image 1 -->
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery-1.jpg" alt="Skipperz Club members jumping rope together in a park" onclick="openLightbox(this)">
+                    </div>
+                    <!-- Gallery Image 2 -->
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery-2.jpg" alt="Group skipping rope activity" onclick="openLightbox(this)">
+                    </div>
+                    <!-- Gallery Image 3 -->
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery-3.jpg" alt="Close-up of feet jumping rope" onclick="openLightbox(this)">
+                    </div>
+                    <!-- Gallery Image 4 -->
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery-4.jpg" alt="Person jumping rope side view" onclick="openLightbox(this)">
+                    </div>
+                    <!-- Gallery Image 5 -->
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery-5.jpg" alt="Person jumping rope from behind" onclick="openLightbox(this)">
+                    </div>
+                    <!-- Gallery Image 6 -->
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery-6.jpg" alt="Silhouette jumping at sunset" onclick="openLightbox(this)">
+                    </div>
+                    <!-- Gallery Image 7 -->
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery-7.jpg" alt="Person celebrating a fitness achievement" onclick="openLightbox(this)">
+                    </div>
+                    <!-- Gallery Image 8 -->
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery-8.jpg" alt="Two people doing double dutch" onclick="openLightbox(this)">
+                    </div>
+                    <!-- Gallery Image 9 -->
+                    <div class="gallery-item">
+                        <img src="assets/images/gallery-9.jpg" alt="Friends laughing while skipping rope" onclick="openLightbox(this)">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- The Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Skipperz Club Nairobi. All rights reserved.</p>
+            <p>Fitness, Fun, and Community - for free.</p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/skipperznbi/" target="_blank">@skipperznbi</a> 
+                <a href="https://www.facebook.com/skipperznbi/" target="_blank">@skipperznbi</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to our JavaScript file -->
+    <script src="js/script.js"></script>
+</body>
+</html>
