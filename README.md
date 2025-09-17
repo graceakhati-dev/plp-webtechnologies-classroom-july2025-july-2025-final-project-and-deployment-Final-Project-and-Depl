@@ -4,7 +4,7 @@ A responsive, multi-page website built for Skipperz Club Nairobi, a free communi
 
 ## 🚀 Live Demo
 
-[View the live website here](https://your-netlify-url.netlify.app) 
+[View the live website here](https://skipperz-club-nairobi.netlify.app/) 
 
 ## 📄 Pages
 
